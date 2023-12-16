@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 576px) {
+      .collapse-content {
+        width: 100%;
+    }
+}
+
+#home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/1.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/3.jpg");
+    }
+    20%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/gilutongan.jpg");
+    }
+    40%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/2.jpg");
+    }
+    60%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/10k.jpg");
+    }
+    80%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/plaza.jpg");
+    }
+    100%
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("images/environment.jpg");
+    }
+}
+
+#history {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("images/bg.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+#tourist-spot {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/bg.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+#environment {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/bg.jpg") center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+:root {
+    --main-color: pink;
+}
+
+.act,
+.navbar ul li a:hover {
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.theme-text {
+    color: var(--main-color) !important;
+}
+
+.logo img {
+    width: 50px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 50%;
+}
+
+.title {
+    display: flex;    
+    height: 50vh;
+    width: 60%;
+}
+
+.title-all{
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.description{
+    padding: 15px;
+    box-shadow: 0 0 15px black;
+    border: 1px solid pink;
+    border-radius: 20px;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    0%{box-shadow: 0 0 20px black ;}
+    20%{box-shadow: 0 0 20px pink;}
+    40%{box-shadow: 0 0 20px black;}
+    60%{box-shadow: 0 0 20px pink;}
+    80%{box-shadow: 0 0 20px black;}
+    100%{box-shadow: 0 0 20px pink;}
+}
+
+.description1 {
+    background-color:white;
+    padding: 8px;
+    box-shadow: 0 0 15px black;
+    border: 1px solid pink;
+    border-radius: 20px;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    0%{box-shadow: 0 0 20px black ;}
+    20%{box-shadow: 0 0 20px pink;}
+    40%{box-shadow: 0 0 20px black;}
+    60%{box-shadow: 0 0 20px pink;}
+    80%{box-shadow: 0 0 20px black;}
+    100%{box-shadow: 0 0 20px pink;}
+}
+
+.description2 {
+    background-color:white;
+    padding: 6px;
+    box-shadow: 0 0 15px black;
+    border: 1px solid pink;
+    border-radius: 20px;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    0%{box-shadow: 0 0 20px black ;}
+    20%{box-shadow: 0 0 20px pink;}
+    40%{box-shadow: 0 0 20px black;}
+    60%{box-shadow: 0 0 20px pink;}
+    80%{box-shadow: 0 0 20px black;}
+    100%{box-shadow: 0 0 20px pink;}
+}
+
+.description3 {
+    background-color:white;
+    padding: 4%;
+    box-shadow: 0 0 15px black;
+    border: 1px solid pink;
+    border-radius: 20px;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    0%{box-shadow: 0 0 20px black ;}
+    20%{box-shadow: 0 0 20px pink;}
+    40%{box-shadow: 0 0 20px black;}
+    60%{box-shadow: 0 0 20px pink;}
+    80%{box-shadow: 0 0 20px black;}
+    100%{box-shadow: 0 0 20px pink;}
+}
+
+.description4 {
+    background-color:white;
+    padding: 1%;
+    box-shadow: 0 0 15px black;
+    border: 1px solid pink;
+    border-radius: 10px;
+    animation: anima 2s infinite;
+}
+
+@keyframes anima {
+    0%{box-shadow: 0 0 20px black ;}
+    20%{box-shadow: 0 0 20px pink;}
+    40%{box-shadow: 0 0 20px black;}
+    60%{box-shadow: 0 0 20px pink;}
+    80%{box-shadow: 0 0 20px black;}
+    100%{box-shadow: 0 0 20px pink;}
+}
+
+.history {
+    display: flex;
+    height: 40vh;
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.readmore a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 0px;
+}
